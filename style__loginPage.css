@@ -1,0 +1,137 @@
+
+#main {
+    height: 83.844vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login__page {
+
+
+}
+#login__page--editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#login__page__logo {
+    width: 433px;
+    height: 120px;
+    margin-bottom: 126px;
+}
+.login__page__input {
+    width: 517px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 3px solid #B5B5B5;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgba(147,147,147,0.68);
+    line-height: 42px;
+}
+.login__page__input::placeholder {
+    color: rgba(147, 147, 147, 0.68);
+}
+
+#login__page__forgetPassword {
+    text-decoration: none;
+    font-family: 'Inter - Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00A3FF;
+    margin-bottom: 57px;
+}
+
+#login__page__loginButton {
+    width: 235px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 3px solid rgba(185, 185, 185, 0.19);
+    box-shadow: 0px -2px 4px #FFFFFF, 10px 20px 9px #7F7F7F;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.63);
+    margin-bottom: 58px;
+}
+#login__page__createAccount {
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #B6B5B5;
+    margin-bottom: 24px;
+}
+#login__page__register {
+    width: 177px;
+    height: 53.48px;
+    background: #FFFFFF;
+    border: 3px solid rgba(185, 185, 185, 0.19);
+    box-shadow: 0px -2px 4px #FFFFFF, 10px 20px 9px #7F7F7F;
+    border-radius: 50px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FF0000;
+    border: 1px solid #ABABAB;
+}
+#footer {
+    border-top: 2px solid #959595;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#login__page__footerMenu {
+
+}
+#login__page__footerMenu--editor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+
+
+}
+
+#login__page__footerMenu__questions {
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #B6B5B5;
+    margin-top: 21.5px;
+
+}
+
+#login__page__footerMenu__contact {
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.63);
+}
