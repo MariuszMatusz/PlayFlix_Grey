@@ -1,30 +1,33 @@
 #main {
 
 }
-#contactUs__page__back__section {
+#contact-us__back-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+
     margin-top: 32px;
 
 }
 
-#contactUs__page__logo {
+#contactUs__logo {
     width: 271px;
     height: 76px;
     margin-left: 64px;
 }
 
-#contactUs__page__back {
+#contact-us__back {
     width: 30px;
     height: 30px;
+    margin-top: 22px;
 }
-#contactUs__page__restore {
+#contact-us__restore {
     width: 30px;
     height: 30px;
     margin-left: 15px;
+    margin-top: 22px;
 }
 
-#contactUs__page__questions {
+#questions-page {
     font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: 700;
@@ -34,7 +37,7 @@
     text-align: center;
 }
 
-#contactUs__page__qestions__problemsPage {
+#questions-problems-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,10 +45,10 @@
     margin-top: 142px;
 
 }
-.contactUs__page__qestions__problems__1 {
+.questions-problems-page__box--mod {
 
 }
-.contactUs__page__qestions__problems__box {
+.questions-problems-page__box {
     width: 255px;
     height: 126px;
     background: #FFFFFF;
@@ -64,7 +67,7 @@
     color: #000000;
 }
 
-#contactUs__page__qestions__contactsPage {
+#questions-contacts-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +75,7 @@
     margin-top: 142px;
 }
 
-.contactUs__page__qestions__contacts__box {
+.questions-contacts__box {
     width: 300px;
     height: 340px;
     background: #FFFFFF;
@@ -85,8 +88,28 @@
     /*justify-content: center;*/
 
 }
+.questions-contacts-adnotation__box {
+    position: absolute;
+    width: 179.2px;
+    height: 35px;
+    background: #FF001C;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -17.5px;
+}
 
-.contactUs__page__qestions__contacts__icon__border {
+.questions-contacts-icon__border {
     width: 70px;
     height: 70px;
     border-radius: 50px;
@@ -96,7 +119,7 @@
     justify-content: center;
     margin-top: 41px;
 }
-.contactUs__page__qestions__contacts__icon__border-red {
+.questions-contacts-icon__border--red {
     width: 70px;
     height: 70px;
     border-radius: 50px;
@@ -106,12 +129,12 @@
     justify-content: center;
     margin-top: 41px;
 }
-.contactUs__page__qestions__contacts__icon {
+.questions-contacts__icon {
     width: 50px;
     height: 50px;
 }
 
-.contactUs__page__qestions__contacts__title {
+.questions-contacts__title {
     font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: 700;
@@ -120,7 +143,7 @@
     color: rgba(0, 0, 0, 0.84);
 }
 
-.contactUs__page__qestions__contacts__text {
+.questions-contacts__text {
     font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: 700;
@@ -130,16 +153,29 @@
     text-align: center;
     color: rgba(0, 0, 0, 0.84);
     flex-wrap: wrap;
+    margin-top: -8px;
+    margin-bottom: -4px;
 }
-.contactUs__page__qestions__contacts__text-edit {
+.questions-contacts__text--edit-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /*text-align: center;*/
+
+
+}
+.questions-contacts__text--edit {
     font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.05em;
-    text-align: center;
+    /*text-align: center;*/
     color: rgba(0, 0, 0, 0.84);
     flex-wrap: wrap;
     margin-bottom: -10px;
+    width: 100%;
+
 }
