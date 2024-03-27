@@ -6,23 +6,23 @@
     justify-content: center;
 }
 
-#login__page {
+#login-page {
 
 
 }
-#login__page--editor {
+#login-page--editor {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 
 }
-#login__page__logo {
+#login-page__logo {
     width: 433px;
     height: 120px;
     margin-bottom: 126px;
 }
-.login__page__input {
+.login-page__input {
     width: 517px;
     height: 80px;
     background: #FFFFFF;
@@ -37,11 +37,11 @@
     color: rgba(147,147,147,0.68);
     line-height: 42px;
 }
-.login__page__input::placeholder {
+.login-page__input::placeholder {
     color: rgba(147, 147, 147, 0.68);
 }
 
-#login__page__forgetPassword {
+#login-page__forgetPassword {
     text-decoration: none;
     font-family: 'Inter - Black';
     font-style: normal;
@@ -52,7 +52,7 @@
     margin-bottom: 57px;
 }
 
-#login__page__loginButton {
+#login-page__loginButton {
     width: 235px;
     height: 71px;
     background: #FFFFFF;
@@ -68,7 +68,7 @@
     color: rgba(0, 0, 0, 0.63);
     margin-bottom: 58px;
 }
-#login__page__createAccount {
+#login-page__create-account {
     text-decoration: none;
     font-family: 'Roboto Mono';
     font-style: normal;
@@ -78,7 +78,7 @@
     color: #B6B5B5;
     margin-bottom: 24px;
 }
-#login__page__register {
+#login-page__register {
     width: 177px;
     height: 53.48px;
     background: #FFFFFF;
@@ -93,45 +93,4 @@
     color: #FF0000;
     border: 1px solid #ABABAB;
 }
-#footer {
-    border-top: 2px solid #959595;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-#login__page__footerMenu {
-
-}
-#login__page__footerMenu--editor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 13px;
-
-
-}
-
-#login__page__footerMenu__questions {
-    text-decoration: none;
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    color: #B6B5B5;
-    margin-top: 21.5px;
-
-}
-
-#login__page__footerMenu__contact {
-    text-decoration: none;
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.03em;
-    color: rgba(0, 0, 0, 0.63);
-}
