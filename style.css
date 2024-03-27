@@ -12,6 +12,11 @@
     src: url("/fonts/RobotMono/RobotoMono-Regular.ttf");
     /* Dodaj inne warianty fontu Roboto Mono, jeśli są używane */
 }
+@font-face {
+    font-family: 'Roboto Mono Medium';
+    src: url("/fonts/RobotMono/RobotoMono-Medium.ttf.ttf");
+    /* Dodaj inne warianty fontu Roboto Mono, jeśli są używane */
+}
 
 @font-face {
     font-family: 'Inter';
@@ -66,3 +71,124 @@ body {
     border-radius: 100%;
 }
 
+#header-nav {
+    display: flex;
+    align-items: flex-start;
+
+    margin-top: 32px;
+
+
+}
+
+#logo-typ {
+    width: 271px;
+    height: 76px;
+    margin-left: 64px;
+
+}
+#contact-us__back {
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+}
+#contact-us__restore {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 22px;
+}
+
+#nav-menu__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    /*margin-top: 16px;*/
+    border-bottom: 2px solid #959595;
+    margin-left: 50px;
+    margin-bottom: 51px;
+
+
+}
+.nav-functional__icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+
+}
+#nav-menu__box a {
+    display: flex;
+    align-items: center;
+    /*margin-left: -550px;*/
+    text-decoration: none;
+}
+
+
+#nav-menu__box a p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #848484;
+    /*margin-left: -80px;*/
+    margin-right: 100px;
+    padding: 0;
+}
+#questions-page {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FF001C;
+    text-align: center;
+}
+
+/* Footer*/
+
+
+#footer {
+    border-top: 2px solid #959595;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#footer-menu__box {
+
+}
+#footer-menu__box--editor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+
+
+}
+
+#footer-menu__questions {
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #B6B5B5;
+    margin-top: 21.5px;
+
+}
+
+#footer-menu__questions-contact {
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.63);
+    margin-bottom: 30px;
+}
