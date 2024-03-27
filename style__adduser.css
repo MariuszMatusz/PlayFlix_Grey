@@ -1,0 +1,189 @@
+
+#add-user__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 103px;
+}
+
+#add-user__box--editor {
+    width: 756px;
+    height: 496px;
+    background: #EDF2F4;
+    border: 3px solid rgba(185, 185, 185, 0.55);
+    box-shadow: 0px -2px 4px #FFFFFF, 10px 20px 9px #7F7F7F;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.user-box__container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: normal;
+}
+
+.user-profile__image {
+    grid-column: 1 / 2;
+    margin-left: -70px;
+}
+
+.user-box__container-text {
+    grid-column: 2 / 3;
+    margin-left: -30px;
+}
+
+.user-box__container-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.user-box__container-input input, .user-box__container-input select {
+    /*margin-left: 10px;*/
+}
+
+.user-profile__image--editor {
+    width: 125px;
+    height: 356px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+
+.user-box__container-input p {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.84);
+    /*margin-bottom: -1px;*/
+}
+.user-box__container-input input {
+    width: 389px;
+    height: 62.05px;
+    background: #FFFFFF;
+    border: 3px solid rgba(147, 147, 147, 0.68);
+    border-radius: 15px;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: rgba(147, 147, 147, 0.68);
+    padding-left: 15px;
+    margin-bottom: 12px;
+    margin-top: -10px;
+}
+
+.user-box__container-input input::placeholder {
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: rgba(147, 147, 147, 0.68);
+    display: flex;
+    align-items: center;
+
+}
+.user-box__container--border {
+    border: 1px solid #959595;
+    margin-bottom: -4px;
+}
+
+.input-choose-language {
+    width: 256px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 3px solid #B5B5B5;
+    border-radius: 15px;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 15px;
+    color: rgba(147, 147, 147, 0.68);
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+
+
+.input-choose-age {
+    width: 256px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 3px solid #B5B5B5;
+    border-radius: 15px;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 15px;
+    color: rgba(147, 147, 147, 0.68);
+    margin-top: -4px;
+}
+
+.input-choose-age option {
+    width: 10px; /* Nowa szerokość opcji */
+}
+
+#add-cancel__box {
+    display: flex;
+    justify-content: center;
+    transform: translate(-200px, 48px);
+    margin-bottom: 120px;
+
+}
+
+#add-cancel__box a {
+    text-decoration: none;
+}
+.add-user__icon {
+    width: 122px;
+    height: 71px;
+    background: #FF001C;
+    border: 3px solid #9F1515;
+    box-shadow: 0px -2px 4px #FFFFFF, 10px 20px 9px #7F7F7F;
+    border-radius: 50px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-right: 39px;
+}
+.add-user__icon-cancel {
+    width: 174px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 3px solid rgba(185, 185, 185, 0.19);
+    box-shadow: 0px -2px 4px #FFFFFF, 10px 20px 9px #7F7F7F;
+    border-radius: 50px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #585A5A;
+}

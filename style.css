@@ -12,6 +12,11 @@
     src: url("/fonts/RobotMono/RobotoMono-Regular.ttf");
     /* Dodaj inne warianty fontu Roboto Mono, jeśli są używane */
 }
+@font-face {
+    font-family: 'Roboto Mono Medium';
+    src: url("/fonts/RobotMono/RobotoMono-Medium.ttf.ttf");
+    /* Dodaj inne warianty fontu Roboto Mono, jeśli są używane */
+}
 
 @font-face {
     font-family: 'Inter';
@@ -81,6 +86,17 @@ body {
     margin-left: 64px;
 
 }
+#contact-us__back {
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+}
+#contact-us__restore {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 22px;
+}
 
 #nav-menu__box {
     display: flex;
@@ -119,6 +135,15 @@ body {
     margin-right: 100px;
     padding: 0;
 }
+#questions-page {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FF001C;
+    text-align: center;
+}
 
 /* Footer*/
 
@@ -128,6 +153,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 
 }
 #footer-menu__box {
@@ -164,4 +190,5 @@ body {
     line-height: 32px;
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.63);
+    margin-bottom: 30px;
 }

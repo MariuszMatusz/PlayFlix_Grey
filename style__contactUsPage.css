@@ -3,27 +3,9 @@
 }
 
 
-#contact-us__back {
-    width: 30px;
-    height: 30px;
-    margin-top: 22px;
-}
-#contact-us__restore {
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    margin-top: 22px;
-}
 
-#questions-page {
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 47px;
-    color: #FF001C;
-    text-align: center;
-}
+
+
 
 #questions-problems-page {
     display: flex;
