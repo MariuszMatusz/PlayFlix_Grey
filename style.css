@@ -66,3 +66,56 @@ body {
     border-radius: 100%;
 }
 
+#header-nav {
+    display: flex;
+    align-items: flex-start;
+
+    margin-top: 32px;
+
+
+}
+
+#logo-typ {
+    width: 271px;
+    height: 76px;
+    margin-left: 64px;
+
+}
+
+#nav-menu__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    /*margin-top: 16px;*/
+    border-bottom: 2px solid #959595;
+    margin-left: 50px;
+    margin-bottom: 51px;
+
+
+}
+.nav-functional__icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+
+}
+#nav-menu__box a {
+    display: flex;
+    align-items: center;
+    /*margin-left: -550px;*/
+    text-decoration: none;
+}
+
+
+#nav-menu__box a p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #848484;
+    /*margin-left: -80px;*/
+    margin-right: 100px;
+    padding: 0;
+}
