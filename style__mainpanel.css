@@ -1,15 +1,32 @@
+
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 70px;
+    height:70px;
+}
+
 .menu-icon__border {
+    position: relative;
     width: 70px;
     height: 70px;
     background: #FFFFFF;
     border: 3px solid #FF001C;
     border-radius: 15px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 53px;
     transform: translateY(3px);
+}
+
+.menu-icon__border::before {
+    content: ""; /* Pusty kontent */
+    position: absolute;
+    width: 44px;
+    height: 44px;
+
+    background-size: cover;
 }
 
 .menu-icon {
@@ -26,6 +43,21 @@
     border: 3px solid rgba(185, 185, 185, 0.19);
     box-shadow: 0px -2px 4px #FFFFFF, 3px 5px 9px #7F7F7F;
     border-radius: 50px;
+
+}
+#toggler{
+    width: 70px;
+    height: 70px;
+
+}
+.hidden_nav_panel_list {
+ background-color: #FFFFFF;
+    width: 20vw;
+    height: 100vh;
+    list-style: none;
+    padding-left: 50px;
+    font-size: 30px;
+    gap: 50px;
 
 }
 
