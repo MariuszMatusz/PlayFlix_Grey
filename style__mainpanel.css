@@ -34,6 +34,24 @@ input[type="checkbox"] {
 
 }
 
+.search__box {
+    width: 493px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 3px solid rgba(185, 185, 185, 0.19);
+    box-shadow: 0px -2px 4px #FFFFFF, 3px 5px 9px #7F7F7F;
+    border-radius: 50px;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    padding-left: 20px;
+
+
+    color: #848484;
+}
+
 #text_input_text{
     width: 300px;
     height: 40px;
