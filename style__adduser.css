@@ -49,6 +49,10 @@
 .user-box__container-input input, .user-box__container-input select {
     /*margin-left: 10px;*/
 }
+.user-profile__image {
+    position: relative;
+    display: inline-block;
+}
 
 .user-profile__image--editor {
     width: 125px;
@@ -57,6 +61,32 @@
     border-radius: 40px;
     margin-top: 5px;
 }
+.user-profile__image--editor:hover  {
+    filter: grayscale(100%);
+    opacity: 0.75 ;
+
+
+}
+
+
+.user-profile__image--editor-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.user-profile__image--editor-icons {
+    width: 70px;
+    height: 70px;
+}
+
+
+.user-profile__image:hover .user-profile__image--editor-icon {
+    display: block;
+}
+
+
 
 .user-box__container-input p {
     font-family: 'Roboto Mono';
