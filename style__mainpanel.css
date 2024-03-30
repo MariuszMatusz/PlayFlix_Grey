@@ -78,15 +78,29 @@ input[type="checkbox"] {
     width: 70px;
     height: 70px;
 
+
 }
 .hidden_nav_panel_list {
- background-color: #FFFFFF;
-    width: 20vw;
-    height: 100vh;
+    background-color: #FFFFFF;
+    width: 17vw;
+    height: 100%;
     list-style: none;
     padding-left: 50px;
+    margin: 0;
     font-size: 30px;
+    font-family: "Roboto Mono Regular";
+    padding-top: 20px;
+}
+.hidden_nav_panel_list , li{
+    padding-top: 50px;
+    padding-bottom: 50px;
     gap: 50px;
+}
 
+.hidden_nav_panel_list , li , a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
