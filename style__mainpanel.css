@@ -18,6 +18,7 @@ input[type="checkbox"] {
     justify-content: center;
     margin-left: 53px;
     transform: translateY(3px);
+
 }
 
 .menu-icon__border::before {
@@ -29,8 +30,18 @@ input[type="checkbox"] {
     background-size: cover;
 }
 
+.ri-menu-line {
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .menu-icon {
     width: 44px;
+    height: 4px;
+    background-color: #FF001C;
+    border-radius: 2px;
 
 }
 
