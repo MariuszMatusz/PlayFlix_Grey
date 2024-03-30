@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var toggler = document.getElementById('toggler');
-    var hiddenNavPanel = document.querySelector('.hidden_nav_panel_list');
-
+    let toggler = document.getElementById('toggler');
+    let hiddenNavPanel = document.querySelector('.hidden_nav_panel_list');
+    hiddenNavPanel.style.display = 'none';
     toggler.addEventListener('change', function() {
         if (this.checked) {
             hiddenNavPanel.style.display = 'block';
