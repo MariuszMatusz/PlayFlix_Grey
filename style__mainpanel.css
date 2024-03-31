@@ -42,7 +42,10 @@ input[type="checkbox"] {
     height: 4px;
     background-color: #FF001C;
     border-radius: 2px;
-
+    opacity: 1;
+}
+.menu-icon_hidden {
+    opacity: 0;
 }
 
 .search__box {
@@ -82,7 +85,7 @@ input[type="checkbox"] {
 }
 .hidden_nav_panel_list {
     background-color: #FFFFFF;
-    width: 17vw;
+    width: 20%;
     height: 100%;
     list-style: none;
     padding-left: 50px;
@@ -102,5 +105,9 @@ input[type="checkbox"] {
     align-items: center;
     text-decoration: none;
     color: black;
+}
+
+ a:hover{
+     transform: scale(1.2);
 }
 
