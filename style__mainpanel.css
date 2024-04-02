@@ -149,8 +149,8 @@ input[type="checkbox"] {
 
 }
 .hidden_nav_panel_list , li{
-    padding-top: 27px;
-    padding-bottom: 27px;
+    padding-top: 26px;
+    padding-bottom: 26px;
     gap: 50px;
 }
 
