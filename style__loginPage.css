@@ -37,6 +37,7 @@
     color: rgba(147,147,147,0.68);
     line-height: 42px;
 }
+
 .login-page__input::placeholder {
     color: rgba(147, 147, 147, 0.68);
 }
