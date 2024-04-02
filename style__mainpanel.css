@@ -342,6 +342,7 @@ a:hover{
     line-height: 26px;
     transform: translate(31px, -26px);
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .home-page-images__title {
@@ -525,3 +526,4 @@ a:hover{
     width: 133px;
     height: 7px;
 }
+

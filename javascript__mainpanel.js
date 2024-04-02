@@ -91,4 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
 //     });
 // });
 
-
+function redirectToMoviePage() {
+    window.location.href = "movie.html";
+}
