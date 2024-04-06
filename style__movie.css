@@ -37,7 +37,9 @@ body {
 #loading-film {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 80vh;
+    gap: 37px;
 }
 
 .loading-bar-1 {
@@ -53,4 +55,9 @@ body {
     height: 15px;
     background: #F84545;
     border-radius: 50px;
+}
+
+.loading-film__icon {
+    width: 47px;
+    height: 47px;
 }
