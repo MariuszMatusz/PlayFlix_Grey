@@ -137,7 +137,7 @@ input[type="checkbox"] {
 .hidden_nav_panel_list {
     background-color: #FFFFFF;
     width: 375px;
-    height: 100vh;
+    height: 100%;
     list-style: none;
     padding-left: 50px;
     margin: 0;
@@ -149,8 +149,8 @@ input[type="checkbox"] {
 
 }
 .hidden_nav_panel_list , li{
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     gap: 50px;
 }
 
@@ -160,16 +160,9 @@ input[type="checkbox"] {
     text-decoration: none;
     color: black;
 }
-.hidden_nav_panel_list > li {
-    font-size: 20px;
-}
-li > img {
-    width: 50px;
-    height: 50px;
-}
 
 a:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 #sidebar_menu_text {
@@ -342,7 +335,6 @@ a:hover{
     line-height: 26px;
     transform: translate(31px, -26px);
     color: #FFFFFF;
-    text-decoration: none;
 }
 
 .home-page-images__title {
@@ -437,9 +429,8 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 56px;
     margin-top: 10px;
-    margin-left: 50px;
 }
 
 .home-page__image-box {
@@ -526,4 +517,3 @@ a:hover{
     width: 133px;
     height: 7px;
 }
-

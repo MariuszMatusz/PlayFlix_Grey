@@ -14,7 +14,12 @@
 }
 @font-face {
     font-family: 'Roboto Mono Medium';
-    src: url("/fonts/RobotMono/RobotoMono-Medium.ttf.ttf");
+    src: url("/fonts/RobotMono/RobotoMono-Medium.ttf");
+    /* Dodaj inne warianty fontu Roboto Mono, jeśli są używane */
+}
+@font-face {
+    font-family: 'Roboto Mono SemiBold';
+    src: url("/fonts/RobotMono/RobotoMono-SemiBold.ttf");
     /* Dodaj inne warianty fontu Roboto Mono, jeśli są używane */
 }
 
@@ -41,8 +46,11 @@ body {
     height: 3.04vh;
     background-color: RGBA(148,148,148,0.75);
     filter: drop-shadow(0px 15px 58px #000000);
+    position: relative;
     display: flex;
     align-items: center;
+    z-index: 9999;
+
 }
 #header__functional__icon {
     display: flex;
@@ -84,6 +92,8 @@ body {
     width: 271px;
     height: 76px;
     margin-left: 64px;
+    position: relative;
+    z-index: 999;
 
 }
 #contact-us__back {

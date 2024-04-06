@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style__contactUsPage.css">
     <link rel="stylesheet" href="style__mainpanel.css">
+    <script src="javascript__mainpanel.js"></script>
 </head>
 <body>
 <header id="grey__background">
@@ -16,15 +17,146 @@
     </div>
 </header>
 <section id="header-nav">
-    <div class="menu-icon__border"><img class="menu-icon" src="images/icons-menu.png" alt=""></div>
-    <img id="logo-typ" src="/images/Image with removed background.png"/>
-    <a href=""><img id="contact-us__back" src="/images/icons8-back-90.png"/></a>
-    <img id="contact-us__restore" src="/images/icons8-res-90.png"/>
-    <input type="text" id="text_input_text">
+    <div class="menu-icon__border">
+        <input type="checkbox" id="toggler">
+        <label for="toggler">
+            <i class="ri-menu-line">
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+                <!--       <img class="menu-icon" src="images/icons-menu.png" alt="">>-->
+            </i>
+
+        </label>
+    </div>
+    <img id="logo-typ--edit" src="/images/Image with removed background.png"/>
+    <a href="chooseprofile.html"><img id="contact-us__back--edit" src="/images/icons8-back-90.png"/></a>
+    <img id="contact-us__restore--edit" src="/images/icons8-res-90.png"/>
+    <div id="search__container">
+        <input type="text" id="text_input_text" class="search__box" placeholder="search...">
+        <img  class="search__icon" src="images/search.png" alt="">
+        <img class="search__icon-X" src="images/X.png" alt="">
+    </div>
 </section>
+<section id="dropdown__click_nav">
+    <div class="menu-open">
+        <ul class="hidden_nav_panel_list">
+            <div id="sidebar_menu_text">Menu</div>
+            <li><img src="images/browse_new_icon.png" alt=""><a href="mainpanel.html">Browse</a></li>
+            <li><img src="images/Watchlist_icon.png" alt=""><a href="#">Watchlist</a></li>
+            <li><img src="images/Coming_soon_icon.png" alt=""><a href="#">Coming soon</a></li>
+            <div id="sidebar_social_text">Social</div>
+            <li><img src="images/Watch_together_icon.png" alt=""><a href="#">Watch together</a></li>
+            <div id="sidebar_general_text">General</div>
+            <li><img src="images/Manage_profiles_icon.png" alt=""><a href="#">Manage Profiles</a></li>
+            <li><img src="images/Settings_icon.png" alt=""><a href="#">Settings</a></li>
+            <li><img src="images/Contact_us_icon.png" alt=""><a href="contact_us.html">Contact us</a></li>
+            <li><img src="images/Log_Out_icon.png" alt=""><a href="index.html">Log out</a></li>
+        </ul>
+    </div>
 
+</section>
+<div id="live__box" >
+    <img class="live-box__images" id="live-box__images-editor" src="images/Samurai.png" alt="">
+    <img class="live-box__icon" src="images/Together 96.png" alt="">
+    <img class="live-box__images" src="images/Kung_Fu_Panda.jpeg" alt="">
+</div>
 <main id="main">
+<section id="home-page">
+    <div id="home-page__box">
+        <div id="home-page__images--1"  class="home-page__images">
+            <div class="home-page-images__title">The Witcher</div>
+            <div class="home-page-images__text">24 episodes</div>
+            <div class="home-page-images__text">3 seasons</div>
 
+            <div class="home-page-images__button-back"></div>
+            <div class="home-page-images__button-next"></div>
+            <button class="home-page-images__button-watch" onclick="redirectToMoviePage()">watch</button>
+        </div>
+        <div id="home-page__images--2"  class="home-page__images">
+            <div class="home-page-images__title">The Witcher</div>
+            <div class="home-page-images__text">24 episodes</div>
+            <div class="home-page-images__text">3 seasons</div>
+
+            <div class="home-page-images__button-back"></div>
+            <div class="home-page-images__button-next"></div>
+            <button class="home-page-images__button-watch">watch</button>
+        </div>
+        <div id="home-page__images--3"  class="home-page__images">
+            <div class="home-page-images__title">The Witcher</div>
+            <div class="home-page-images__text">24 episodes</div>
+            <div class="home-page-images__text">3 seasons</div>
+
+            <div class="home-page-images__button-back"></div>
+            <div class="home-page-images__button-next"></div>
+            <button class="home-page-images__button-watch">watch</button>
+        </div>
+        <div id="home-page__images--4"  class="home-page__images">
+            <div class="home-page-images__title">The Witcher</div>
+            <div class="home-page-images__text">24 episodes</div>
+            <div class="home-page-images__text">3 seasons</div>
+
+            <div class="home-page-images__button-back"></div>
+            <div class="home-page-images__button-next"></div>
+            <button class="home-page-images__button-watch">watch</button>
+        </div>
+        <div id="home-page__images--5"  class="home-page__images">
+            <div class="home-page-images__title">The Witcher</div>
+            <div class="home-page-images__text">24 episodes</div>
+            <div class="home-page-images__text">3 seasons</div>
+
+            <div class="home-page-images__button-back"></div>
+            <div class="home-page-images__button-next"></div>
+            <button class="home-page-images__button-watch">watch</button>
+        </div>
+    </div>
+</section>
+<div id="home-page__title">Better together</div>
+<div id="home-page__title2"><img src="images/Arrow96.png" alt="">Continue watching</div>
+<section id="home-page__box-down">
+    <div class="home-page__image-box">
+        <img src="images/Henry_Witcher.jpg" alt="">
+        <div class="home-page__image-box--edit">
+        <div class="home-page-down-box__title">The Witcher</div>
+        <div class="home-page-down-box__text">Season 1 Episode 1</div>
+        <div class="loading-bar"><div class="charging-value-1"></div></div>
+        </div>
+    </div>
+    <div class="home-page__image-box">
+        <img src="images/Dune_2.png" alt="">
+        <div class="home-page__image-box--edit">
+        <div class="home-page-down-box__title">Dune 2</div>
+        <div class="home-page-down-box__text">Movie</div>
+        <div class="loading-bar"><div class="charging-value-2"></div></div>
+        </div>
+    </div>
+    <div class="home-page__image-box">
+        <img src="images/Demon_Slayer.jpg" alt="">
+        <div class="home-page__image-box--edit">
+        <div class="home-page-down-box__title">Demon Slayer</div>
+        <div class="home-page-down-box__text">Season 3 Episode 7</div>
+        <div class="loading-bar"><div class="charging-value-3"></div></div>
+        </div>
+    </div>
+    <div class="home-page__image-box">
+        <img src="images/Kung_Fu_Panda.jpeg" alt="">
+        <div class="home-page__image-box--edit">
+        <div class="home-page-down-box__title">Kung Fu Panda 4</div>
+        <div class="home-page-down-box__text">Movie</div>
+        <div class="loading-bar"><div class="charging-value-4"></div></div>
+        </div>
+    </div>
+    <div class="home-page__image-box">
+        <img src="images/Boku_no_pico.png" alt="">
+        <div class="home-page__image-box--edit">
+        <div class="home-page-down-box__title">Boku no Pico</div>
+        <div class="home-page-down-box__text">Season 1 Episode 5</div>
+        <div class="loading-bar"><div class="charging-value-5"></div></div>
+        </div>
+    </div>
+
+</section>
+    
 
 </main>
 </body>

@@ -1,0 +1,56 @@
+body {
+    background: url("images/Geralt_Rivia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#movie-page {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+
+#back-page {
+    background: url("images/Back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.movie__title {
+    font-family: 'Roboto Mono Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#loading-film {
+    display: flex;
+    justify-content: center;
+    margin-top: 80vh;
+}
+
+.loading-bar-1 {
+    width: 1356px;
+    height: 15px;
+    background: #D9D9D9;
+    border-radius: 50px;
+
+}
+
+.loading-bar-2 {
+    width: 357.73px;
+    height: 15px;
+    background: #F84545;
+    border-radius: 50px;
+}
