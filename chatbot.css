@@ -1,0 +1,92 @@
+#main {
+
+}
+#chat_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.chat-contacts__box {
+    width: 700px;
+    height: 500px;
+    background-color: #FFFFFF;
+   margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgba(185, 185, 185, 0.19);
+    box-shadow: 0px -2px 4px #FFFFFF, 10px 20px 9px #7F7F7F;
+    border-radius: 25px;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.chat-consultant__box {
+    width: 700px;
+    height: 800px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgba(185, 185, 185, 0.19);
+    box-shadow: 0px -2px 4px #FFFFFF, 10px 20px 9px #7F7F7F;
+    border-radius: 25px;
+    font-family: 'Roboto Mono Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.chat-contacts__box > p {
+    font-size: 30px;
+
+}
+.chat-contacts__box > div {
+    font-size: 30px;
+}
+
+.chat-consultant__box-textbox {
+        width: 600px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 3px solid rgba(185, 185, 185, 0.19);
+        box-shadow: 0px -2px 4px #FFFFFF, 3px 5px 9px #7F7F7F;
+        border-radius: 50px;
+        font-family: 'Roboto Mono Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 37px;
+        padding-left: 40px;
+        color: #848484;
+
+}
+
+.chat-container {
+    position: relative;
+}
+
+.send__icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
